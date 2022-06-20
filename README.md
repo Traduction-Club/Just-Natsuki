@@ -7,6 +7,8 @@ Esta traducción no es oficial, si deseas descargar el mod original en inglés p
 
 Para descargar la última versión estable, dirigete a [releases](https://github.com/Traduction-Club/Just-Natsuki/releases).
 
+Y por ultimo, este mod es muy grande, y difícil de testear, por ende puede contener errores menores, si encuentra alguno repórtelo en nuestro canal de solución de problemas de nuestro discord.
+
 ### Instalación
 
 * Obtén la última versión disponible desde [releases](https://github.com/Traduction-Club/Just-Natsuki/releases), se descargará un archivo .zip.
