@@ -1702,7 +1702,7 @@ label talk_sustainable_fashion:
 
     if Natsuki.isNormal(higher=True):
         n 1fcssm "De hecho, es una de las razones por las que empecé a aprender a coser."
-        n 1klrsr "Nunca{w=0.3} he tenido mucho dinero para comprar mucha ropa,{w=0.1} así que intento reutilizar y arreglar lo que puedo.."
+        n 1klrsr "Nunca{w=0.3} he tenido mucho dinero para comprar mucha ropa,{w=0.1} así que intento reutilizar y arreglar lo que puedo."
         n 1fchbg "Pero te sorprendería lo que puedes conseguir con un poco de creatividad."
         extend 1fcssm " Y una pizca de inteligencia también,{w=0.1} obviamente."
         n 1fchgn "Apuesto a que no sabías que mi falda rosa favorita estaba hecha a mano,{w=0.1} ¿verdad?"
@@ -1759,7 +1759,7 @@ label talk_give_nickname:
         # Account for strikes
         if persistent.jn_player_nicknames_bad_given_total == 0:
             n 1unmaj "¿Oh?{w=0.2} ¿Quieres darme otro apodo?"
-            n 1uchbg "Claro,{w=0,1} ¡por qué no!"
+            n 1uchbg "Claro,{w=0.1} ¡por qué no!"
 
         elif persistent.jn_player_nicknames_bad_given_total == 1:
             n 1unmaj "¿Quieres darme un nuevo apodo?"
@@ -1996,7 +1996,7 @@ label talk_sleeping_well:
     elif jn_admissions.last_admission_type == jn_admissions.TYPE_TIRED:
         n 1fllpo "Quiero decir, incluso dijiste que estabas cansado antes."
         n 1ullaj "Así que...{w=0.5}{nw}"
-        extend 1nnmaj " Tiene sentido que pregunte,{w=0,1} ¿verdad?{w=0,2} De todos modos..."
+        extend 1nnmaj " Tiene sentido que pregunte,{w=0.1} ¿verdad?{w=0.2} De todos modos..."
 
     n 1nnmaj "Lo admito,{w=0.1} yo también tengo alguna que otra noche de insomnio.{w=0.5}{nw}"
     extend 1fbkwr " ¡Es lo peor!"
@@ -2011,7 +2011,7 @@ label talk_sleeping_well:
     n 1fcsbg "Así que,{w=0.1} escuchen-{w=0.1} ¡es hora de otra lección de su maestra!"
     n 1fnmaj "Muy bien,{w=0.1} primero,{w=0.1} ¡deja las tonterías!{w=0.2} Si estás tratando de dormir,{w=0.1} cualquier cosa con alto contenido de azúcar o cafeína es tu enemigo."
     n 1fllss "Así que antes de nada,{w=0.1} deja los refrescos y el café. Puedes agradecérmelo después."
-    n 1fcsaj "Siguiente -{w=0,1} ¡nada de pantallas!{w=0.5}{nw}"
+    n 1fcsaj "Siguiente -{w=0.1} ¡nada de pantallas!{w=0.5}{nw}"
     extend 1fsqpo " Incluyendo esta, [player]."
     n 1unmsl "Nada de pantalla significa que no tengas luces brillantes ni distracciones que te mantengan despierto,{w=0.1} obviamente."
     n 1fnmpu "Si estás cansado, lo último que necesitas es algo que te ilumine."
@@ -2056,7 +2056,7 @@ label talk_aging:
     n 1unmaj "Ya sabes,{w=0.1} [player]..."
     n 1nllpu "Creo que la mayoría de la gente comparte un montón de miedos."
     n 1unmpu "Entiendes lo que quiero decir,{w=0.1} ¿verdad?{w=0.2} Como presentar cosas a una sala llena de gente, o suspender un examen."
-    n 1tlrss "Por supuesto,{w=0.1} es raro encontrar uno miedo que tenga {i}todo el mundo{/i}..."
+    n 1tlrss "Por supuesto,{w=0.1} es raro encontrar un miedo que tenga {i}todo el mundo{/i}..."
     n 1tnmaj "O al menos algo que haga que la gente se sienta incómoda."
     n 1unmbg "Pero...{w=0.3} ¡Creo que he encontrado uno!"
     n 1usgsm "¿En qué estoy pensando,{w=0.1} te preguntarás?"
@@ -2081,7 +2081,7 @@ label talk_aging:
     n 1nlrpu "Es como la mayoría de las cosas,{w=0.1} realmente."
     n 1unmaj "Además,{w=0.1} no es que tener cierta edad signifique que {i}tengas{/i} que ser de cierta manera."
     n 1fchbg "Quiero decir...{w=0.3} ¡mira a Yuri!"
-    n 1uchgn "Siendo así de anticuada -{w=0,1} ¡cualquiera diría que es una anciana!"
+    n 1uchgn "Siendo así de anticuada -{w=0.1} ¡cualquiera diría que es una anciana!"
     n 1nllbg "Pero de todos modos...{w=0.3} Creo que nos hemos desviado del tema."
     n 1unmss "No me importa la edad que tengas,{w=0.1} [player]."
 
@@ -2126,7 +2126,7 @@ label talk_work_life_balance:
 
     n 1nnmaj "Creo que hoy en día es muy fácil dejar que tu vida académica o laboral se cuele en tu tiempo de ocio."
     n 1nlrsl "Quiero decir...{w=0.3} piensa en ello."
-    n 1nnmsl "Con todo el mundo con teléfonos móviles,{w=0.1} además de algún tipo de ordenador en casa -{w=0,1} es difícil no estar conectado de alguna manera."
+    n 1nnmsl "Con todo el mundo con teléfonos móviles,{w=0.1} además de algún tipo de ordenador en casa -{w=0.1} es difícil no estar conectado de alguna manera."
     n 1flrbo "Y es como...{w=0.3} si ya existe esa conexión,{w=0.1} entonces, ¿qué impide que el trabajo te moleste durante tu tiempo libre?"
     n 1fsrbo "¿O compañeros que piden ayuda en el último momento?"
 
@@ -2140,7 +2140,7 @@ label talk_work_life_balance:
         n 1fsran "O incluso estudiantes que estudian hasta altas horas de la noche hasta que se desploman...{w=0.3} ¡es una locura!"
 
     else:
-        n 1fsqpu "Simplemente resulta molesto -{w=0,1} todo el mundo espera que estés siempre para hacer más."
+        n 1fsqpu "Simplemente resulta molesto -{w=0.1} todo el mundo espera que estés siempre para hacer más."
         n 1fslsl "En realidad,{w=0.1} ahora que lo pienso..."
         n 1fcsaj "Tampoco es que ese tipo de cosas se limiten sólo a cuando estás fuera."
         n 1fsrsr "He oído demasiadas historias de personas que hacen cantidades estúpidas de horas extras en el trabajo.{w=0.5}{nw}"
@@ -2155,7 +2155,7 @@ label talk_work_life_balance:
         n 1fnmsf "Pero será mejor que no dejes que se apodere de tu vida. ¿Entiendes?"
 
         if Natsuki.isEnamored(higher=True):
-            n 1knmpu "{i}Tu eres más{/i} que tu carrera,{w=0,1} o tu educación.{w=0,2} Tienes tus propios deseos y necesidades que también importan."
+            n 1knmpu "{i}Tu eres más{/i} que tu carrera,{w=0.1} o tu educación.{w=0.2} Tienes tus propios deseos y necesidades que también importan."
             n 1kllun "No quiero que un trabajo tonto o una tarea estúpida se apoderen de tu vida."
             n 1fcsun "Eres...{w=0.3} mucho más importante que cualquiera de esos,{w=0.1} [player].{w=0.2} Confía en mí."
 
@@ -2212,15 +2212,15 @@ label talk_using_headphones_carefully:
     n 1nnmaj "En serio -{w=0.1} ¿usas a menudo auriculares o algo parecido?"
     n 1nlrpo "Lo admito,{w=0.1} probablemente uso los míos más de lo que debería."
     n 1fnmaj "Estaba bromeando con lo de la audición,{w=0.1} pero esto es importante,{w=0.1} [player]."
-    n 1nlrss "A mí también me gusta subir el volumen -{w=0,1} sólo que no se me hace un mal hábito."
+    n 1nlrss "A mí también me gusta subir el volumen -{w=0.1} sólo que no se me hace un mal hábito."
     n 1unmsl "En algunos países incluso hay advertencias si tienes el volumen demasiado alto..."
     n 1fllem "...¡Y por una buena razón!"
     n 1fnmpo "No sólo para proteger tus oídos -{w=0.1} más vale que tengas cuidado al salir fuera de casa también."
     n 1fcsem "¡No quiero oír hablar de que te han atropellado porque no has oído venir algo!"
     n 1unmbo "Oh -{w=0.1} y una última cosa, {w=0.1} en realidad."
-    n 1unmpu "Puede que los lleves para concentrarte en el trabajo o para relajarte en casa -{w=0,1} y eso está bien."
+    n 1unmpu "Puede que los lleves para concentrarte en el trabajo o para relajarte en casa -{w=0.1} y eso está bien."
     n 1nnmsr "Pero por favor,{w=0.1} [player]."
-    n 1flrsr "...Quítatelos de vez en cuando,{w=0.1} ¿lo harás?{w=0.2} Para estar otras personas, {w=0.1} sabes..."
+    n 1flrsr "...Quítatelos de vez en cuando,{w=0.1} ¿lo harás?{w=0.2} Al menos al estar con otras personas, {w=0.1} sabes..."
     n 1ncsbo "Lo entiendo -{w=0.1} si sólo quieres escuchar algo en paz,{w=0.1} o darte un poco de espacio,{w=0.1} está bien."
 
     if jn_activity.has_player_done_activity(jn_activity.JNActivities.music_applications):
@@ -2254,7 +2254,7 @@ label talk_thoughts_on_horror:
         n 1tllaj "Creo que nunca he explicado por qué me disgusta tanto el terror."
         n 1tlrss "Sé que lo mencioné antes, {w=0.1} pero me tomo un poco desprevenida en ese momento."
         n 1unmaj "¿Honestamente?"
-        n 1nnmsm "Cada uno tiene sus gustos,{w=0,1} ¿verdad? Y puedo entender por qué la gente lo disfruta."
+        n 1nnmsm "Cada uno tiene sus gustos,{w=0.1} ¿verdad? Y puedo entender por qué la gente lo disfruta."
 
     elif Natsuki.isDistressed(higher=True):
         n 1nllbo "Creo que no he explicado por qué no me gusta el terror."
@@ -4226,11 +4226,11 @@ label talk_windup_unwashed_hands:
     n 1unmaj "Oye,{w=0.1} [player]."
     n 1nnmaj "¿Has trabajado alguna vez en un restaurante,{w=0.1} un hospital, o algo así?"
     n 1fnmaj "Por que entonces apuesto a que algo te esta taladrando el cerebro...{w=0.3} ¡Cuan importante es lavarte bien las manos!"
-    n 1flraj "Me pone de los nervios que la gente no lave las manos después de hacer algo desagradable."
+    n 1flraj "Me pone de los nervios que la gente no se lave las manos después de hacer algo desagradable."
     n 1fsqsl "Es como...{w=0.3} {i}Sabemos{/i} lo importante que es deshacerse de esos gérmenes -{w=0.1} ¡¿así que {i}cuán{/i} difícil es meter tus manos bajo el grifo un maldito minuto?!"
     n 1fsqem "¡Me molesta incluso mas cuando la persona es idiota al respecto!{w=0.2} Como si no tuvieran que lavárselas,{w=0.1} aunque no hagan nada."
     n 1fcsem "Pues aquí tengo una noticia -{w=0.1} si entraste,{w=0.1} has tenido que tocar algo -{w=0.1} ¡así que los gérmenes de esa cosa ahora van contigo!"
-    n 1fsqsf "No solo es {i}super{/i} asqueroso para y horrible para {i}tu{/i} salud..."
+    n 1fsqsf "No solo es {i}super{/i} asqueroso y horrible para {i}tu{/i} salud..."
     n 1ksqan "¡También es asqueroso para el resto!{w=0.2} ¿Y si tienes que manejar la comida de alguien,{w=0.1} o visitar a alguien en el hospital?"
     n 1fllan "Podrías hacer que alguien se enferme seriamente..."
     n 1fnmfu "...¡Y todavía se enfadan si les dices algo al respecto!{w=0.2} A ver,{w=0.1} ¡venga {i}ya{/i}!"
